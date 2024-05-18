@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    background-color: blanchedalmond;
+}
+
+.header {
+    margin: 0;
+    position: fixed;
+    align-items: end;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    margin-left: 100px;
+
+}
+
+.nav-list {
+    display: flex;
+    padding: 15px;
+    list-style: none;
+}
+
+.nav-list li {
+    padding: 15px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    background-color: rgb(90, 5, 5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+.nav-list li:hover {
+    cursor: pointer;
+}
+
+.nav-list li:active {
+    box-shadow: 0 4px 8px rgba(133, 133, 133, 0.5);
+}
+
+.logo {
+    height: 100px;
+    position: fixed;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.mission {
+    display: flex;
+    height: 500px;
+    background-image: url(file:///C:/Users/crowdie/Documents/Codecademy/company%20home%20page/background/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}   
+
+.mission-content {
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.171);
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    background-size:auto;
+    color: bisque;
+    background-size: contain;
+    
+}
+
+.examples-container {
+
+    display: grid;
+    height: 470px;
+    width: 100%;
+    flex-direction: row;
+
+
+}
+
+.examples {
+    display: flex;
+    height: 450px;
+    width: 100%;
+    flex: 1;
+    justify-content: space-between;
+
+}
+
+
+.item-container {
+    display: flex;
+    position: relative;
+
+}
+
+.preview-img {
+    display: flex;
+    height: 450px;
+}
+
+.pricing {
+    position: absolute;
+    bottom: 0px;
+    right: 150px;
+    font-size: 24px;
+}
+
+.pricing p {
+    margin: 0;
+    font-weight: 700;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.contact-info p {
+    font-size: xx-large;
+}
